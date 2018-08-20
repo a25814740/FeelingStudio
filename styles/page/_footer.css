@@ -1,0 +1,55 @@
+.footer .text-area {
+  height: 400px;
+  position: absolute;
+  padding: 20px;
+  left: 10%;
+  bottom: 0%;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer .text-area .text-wrap + .text-wrap {
+  margin-right: 80px;
+}
+
+.footer .text-area .text-wrap .article {
+  padding-top: 35px;
+}
+
+.footer .text-area .text-wrap .article .heading3 {
+  margin-left: 30px;
+}
+
+.footer .text-area .contact-nav li + li {
+  margin-right: 25px;
+}
+
+.footer .text-area .contact-nav li a {
+  border-style: dashed;
+  border-radius: 25px;
+  border-width: 0.5px;
+  padding: 12px 9px;
+  -webkit-transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer .text-area .contact-nav li a:hover {
+  border-color: #ffd850;
+  color: #ffd850;
+}
+
+.footer .text-area .copyright {
+  margin-right: 30px;
+  color: #000;
+}
+
+.footer .text-area .copyright a:hover {
+  color: inherit;
+  text-decoration: underline;
+}

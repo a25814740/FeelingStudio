@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+
+.navbar {
+    .heading2 {
+        font-family: 'DFKai-sb', "Microsoft JhengHei", "微軟正黑體", "Heiti TC", Arial, Verdana;
+        span {
+            font-weight: bold;
+        }
+        .main {
+            font-size: 30px;
+        }
+        .secondary {
+            font-size: 22px;
+        }
+    }
+    .menus-right {
+        .menus-list {
+            .nav-link {
+                font-size: 20px;
+                font-family: 'DFKai-sb', "Microsoft JhengHei", "微軟正黑體", "Heiti TC", Arial, Verdana;
+            }
+        }
+    }
+}
+[data-page="index"] {
+    .menu {
+        .menus-right {
+            .menus-list {
+                font-size: 20px;
+                letter-spacing: 3.5px;
+            }
+        }
+    }
+    .background-area .text-area {
+        .heading3{
+            font-family: 'Felix Titling', "Microsoft JhengHei", "微軟正黑體", "Heiti TC", Arial, Verdana;
+            color: #ffd850;
+            font-size: 14px;
+            letter-spacing: 3.2px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 2px;
+        }
+        .contact-nav {
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 1.5px;
+        }
+        .copyright {
+            font-family: "Microsoft JhengHei", "微軟正黑體", "Heiti TC", Arial, Verdana;
+            p {
+                font-size: 16px;
+                line-height: 30px;
+                letter-spacing: 0;
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            p {
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+footer {
+    .text-area {
+        .heading3{
+            font-family: 'Felix Titling', "Microsoft JhengHei", "微軟正黑體", "Heiti TC", Arial, Verdana;
+            color: #ffd850;
+            font-size: 16px;
+            letter-spacing: 3.2px;
+        }
+    }
+}

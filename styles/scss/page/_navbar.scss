@@ -1,0 +1,366 @@
+@charset "UTF-8";
+
+
+.navbar {
+    padding: 0 12px;
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        color: #215887;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('images/navbar/navbar-header-bg.png') 50% 0% repeat;
+        background-size: cover;
+        @media screen and (max-width: 991px) {
+            background: url('images/navbar/phone-navbar-header-bg.png') 50% 0% repeat;
+            background: transparent;
+        }
+    }
+    .container {
+        position: relative;
+        @media screen and (max-width: 991px) {
+            max-width: 100%;
+        }
+    }
+    .navbar-brand {
+        padding: 17px 0px;
+        .heading2 {
+            margin-bottom: 0;
+            color: #215887;
+            font-size: 0;
+            span {
+                display: inline-block;
+            }
+            .secondary {
+                margin-left: 10px;
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            padding: 12px 0;
+        }
+    }
+    .navbar-toggler {
+        &:focus {
+            outline: none;
+        }
+        cursor: pointer;
+        position: relative;
+        width: 48px;
+        height: 32px;
+        padding: 5px 10px;
+        margin-right: 15px;
+        border: 0;
+        span {
+            display: block;
+            position: absolute;
+            height: 4px;
+            width: 50%;
+            background: #FFF;
+            border-radius: 0px;
+            opacity: 1;
+            left: 25%;
+            transform: rotate(0deg);
+            transition: .25s ease-in-out;
+            &:nth-child(1) {
+              top: 26%;
+            }
+            &:nth-child(2), &:nth-child(3) {
+              top: 50%;
+            }
+            &:nth-child(4) {
+              top: 74%;
+            }
+        }
+        &.open {
+            span {
+                &:nth-child(1) {
+                    top: 18px;
+                    width: 0%;
+                    left: 50%;
+                }
+                &:nth-child(2) {
+                    transform: rotate(45deg);
+                }
+                &:nth-child(3) {
+                    transform: rotate(-45deg);
+                }
+                &:nth-child(4) {
+                    top: 18px;
+                    width: 0%;
+                    left: 50%;
+                }
+            }
+        }
+    }
+    .menus-right {
+        .menus-list {
+            .nav-link {
+                position: relative;
+                padding: 0;
+                margin: 0 16px;
+                color: #215887;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 0%;
+                    height: 1px;
+                    overflow: hidden;
+                    bottom: 0px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: #215887;
+                    transition: width 0.3s ease-in-out;
+                }
+                &:hover {
+                    color: #215887;
+                    &::before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .socials-list {
+            margin-left: 60px;
+            li {
+                a {
+                    background: #215887;
+                    color: #FFF;
+                    border: solid 1px transparent;
+                    transition: background-color 0.3s ease-in-out, 
+                                color 0.3s ease-in-out, 
+                                border 0.3s ease-in-out;
+                    &:hover {
+                        background-color: transparent;
+                        // border: solid 1px #215887;
+                    }
+                }
+                &.social-facebook {
+                    a {
+                        &:hover {
+                            color: #3C579D;
+                        }
+                    }
+                }
+                &.social-instagram {
+                    a {
+                        &:hover {
+                            color: #F5B453;
+                        }
+                    }
+                }
+                &.social-mail {
+                    a {
+                        &:hover {
+                            color: #D4201A;
+                        }
+                    }
+                }
+                &.social-line {
+                    a {
+                        &:hover {
+                            color: #1BB71F;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 1199px) {
+            .menus-list {
+                .nav-link {
+                    margin: 0 12px;
+                }
+            }    
+            .socials-list {
+                margin-left: 30px;
+            }
+        }
+    }
+    @media screen and (max-width: 991px) {
+        padding-left: 0;
+        padding-right: 0;
+        .navbar-brand {
+            padding-left: 10px;
+            opacity: 0;
+            transition: opacity 0.6s ease-in-out;
+            .heading2 {
+                color: #FFF;
+            }
+        }
+        .navbar-collapse {
+            background: url('images/navbar/phone-navbar-content-bg.png') 50% 50% repeat;
+        }
+        .menus-list {
+            margin-top: 0;
+            .nav-item {
+                text-align: center;
+                .nav-link {
+                    padding: 10px 12px;
+                    margin: 0;
+                    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+                    &::before {
+                        display: none;
+                    }
+                    &:hover {
+                        color: #fff;
+                        background-color: #215887;
+                    }
+                }
+            }
+        }
+        .menus-right {
+            .socials-list {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                margin-left: 0;
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+    }
+}
+// menu & navbar 共用 Style
+.menus-right {
+    .socials-list {
+        li {
+            &+li {
+                margin-left: 7px;
+            }
+            a {
+                border-radius: 50%;
+                background: #373737;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: background-color 0.3s ease-in-out;
+                [class*="icon-"] {
+                    &::before {
+                        font-size: 22px;
+                    }
+                }
+                &:hover {
+                    color: inherit;
+                }
+            }
+        }
+    }
+}
+[data-page="index"] {
+    .menu {
+        position: absolute;
+        display: flex;
+        z-index: 1000;
+        width: 100%;
+        left: 0;
+        top: 0;
+        color: #FFF;
+        margin-top: 40px;
+        @media screen and (max-width: 1439px) {
+            margin-top: 20px;
+        }
+        .heading2 {
+            position: absolute;
+            top: 0;
+            left: 5%;
+            z-index: 10;
+            color: #F00;
+            @media screen and (max-width: 1439px) {
+                img {
+                    width: 85px;
+                }
+            }
+        }
+        .menus-right {
+            margin-right: 65px;
+            @media screen and (max-width: 1439px) {
+                margin-right: 45px;
+            }
+            .menus-list {
+                li {
+                    position: relative;
+                    &+li {
+                        margin-left: 30px;
+                        @media screen and (max-width: 1439px) {
+                            margin-left: 25px;
+                        }
+                    }
+                    a {
+                        position: relative;
+                        text-shadow: 0 0 1px rgba(0,0,0,1);
+                        transition: color 0.3s ease-in-out;
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            left: -3px;
+                            background-color: #ffd850;
+                            height: 0%;
+                            width: 1px;
+                            transition: height 0.3s ease-in-out;
+                            overflow: hidden;
+                        }
+                        &:hover {
+                            color: #ffd850;
+                            &::before {
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .socials-list {
+                margin-left: 30px;
+                li {
+                    &+li {
+                        margin-left: 7px;
+                    }
+                    a {
+                        background: #373737;
+                    }
+                    &.social-facebook {
+                        a {
+                            &:hover {
+                                background: #3C579D;
+                            }
+                        }
+                    }
+                    &.social-instagram {
+                        a {
+                            &:hover {
+                                background: #F5B453;
+                            }
+                        }
+                    }
+                    &.social-mail {
+                        a {
+                            &:hover {
+                                background: #D4201A;
+                            }
+                        }
+                    }
+                    &.social-line {
+                        a {
+                            &:hover {
+                                background: #1BB71F;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        nav {
+            &.menu {
+                display: none !important;
+            }
+            &.navbar {
+                display: flex !important;
+            }
+        }
+    }
+}

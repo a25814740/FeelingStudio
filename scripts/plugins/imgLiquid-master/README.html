@@ -1,0 +1,63 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <p><img src="https://raw.github.com/karacas/imgLiquid/master/tests/logoimgliquid.png" alt="ScreenShot"></p>
+<p>imgLiquid v0.9.944 / 11-04-2013</p>
+<p>#####A jQuery Plugin to resize images to fit in a container.
+Alejandro Emparan (karacas) / @krc_ale
+Dual licensed under the MIT and GPL licenses.</p>
+<p>## </p>
+<p>#Usage</p>
+<p>####Include:</p>
+<pre><code class="lang-html">&lt;script src=&quot;js/imgLiquid-min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>####js:</p>
+<pre><code class="lang-js">$(document).ready(function() {
+    $(&quot;.imgLiquidFill&quot;).imgLiquid();
+});
+</code></pre>
+<p>####Html:</p>
+<pre><code class="lang-html">&lt;div class=&quot;imgLiquidFill imgLiquid&quot; style=&quot;width:300px; height:200px;&quot;&gt;
+    &lt;img alt=&quot;Woody&quot; src=&quot;woody.jpg&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+<p>####View in action:
+<a href="http://goo.gl/Wk8bU">http://goo.gl/Wk8bU</a></p>
+<p>####or play with it:
+<a href="http://jsfiddle.net/karacas/3CRx7/#base">http://jsfiddle.net/karacas/3CRx7/#base</a>
+<a href="http://codepen.io/karacas/pen/nlugd">http://codepen.io/karacas/pen/nlugd</a></p>
+<p>## </p>
+<p>###Features:</p>
+<pre><code>    - Uses CSS Background-size when is available. (new!)
+    - Bootstrap compatible.
+    - Lightweight: &lt; 2.0KBs gzipped.
+    - Fill / Crop.
+    - Align.
+    - Responsive.
+    - Svg support.
+    - CallBacks.
+    - HTML5 data-* attributes.
+    - All browsers (Incl. ie6).
+</code></pre><p>###Options:</p>
+<pre><code>
+    &gt;js
+        fill: true,
+        verticalAlign:      // &#39;center&#39; //  &#39;top&#39;   //  &#39;bottom&#39; // &#39;50%&#39;  // &#39;10%&#39;
+        horizontalAlign:    // &#39;center&#39; //  &#39;left&#39;  //  &#39;right&#39;  // &#39;50%&#39;  // &#39;10%&#39;
+
+        //CallBacks
+        onStart:        function(){},
+        onFinish:       function(){},
+        onItemStart:    function(index, container, img){},
+        onItemFinish:   function(index, container, img){}
+
+    &gt;hml5 data attr (overwrite js options)
+        data-imgLiquid-fill=&quot;true&quot;
+        data-imgLiquid-horizontalAlign=&quot;center&quot;
+        data-imgLiquid-verticalAlign=&quot;50%&quot;
+</code></pre>
+      </body>
+    </html>

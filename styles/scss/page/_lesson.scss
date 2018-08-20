@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+[data-page="lesson"] {
+    .background-area {
+        position: relative;
+        width: 100%;
+        @media screen and (min-width: 992px) {
+            .jqimgFill {
+                background: none !important;
+                img {
+                    display: block !important;
+                }
+            }
+        }
+        @media screen and (max-width: 991px) {
+            .jqimgFill {
+                height: 400px;
+                background-position: 38% center !important;
+            }
+        }
+        @media screen and (max-width: 575px) {
+            .jqimgFill {
+                height: 300px;
+            }
+        }
+        @media screen and (max-width: 479px) {
+            .jqimgFill {
+                height: 250px;
+            }
+        }
+    }
+}

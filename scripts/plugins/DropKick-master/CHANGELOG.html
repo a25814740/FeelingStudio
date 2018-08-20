@@ -1,0 +1,424 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>CHANGELOG.md</title>
+      </head>
+      <body>
+        <h1 id="change-log">Change Log</h1>
+<h2 id="-v2-1-9-https-github-com-robdel12-dropkick-tree-v2-1-9-2016-08-14-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.9">v2.1.9</a> (2016-08-14)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.8...v2.1.9">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Classes added to the combobox are removed on select <a href="https://github.com/Robdel12/DropKick/issues/337">#337</a></li>
+<li>Updating from DropKick 1.3.3 and I have issues <a href="https://github.com/Robdel12/DropKick/issues/308">#308</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Potential XSS hole fix: e.text is not safe while e.innerHTML is <a href="https://github.com/Robdel12/DropKick/pull/338">#338</a> (<a href="https://github.com/javuto">javuto</a>)</li>
+<li>Added support for the hidden attribute on options. <a href="https://github.com/Robdel12/DropKick/pull/335">#335</a> (<a href="https://github.com/aesinv">aesinv</a>)</li>
+</ul>
+<h2 id="-v2-1-8-https-github-com-robdel12-dropkick-tree-v2-1-8-2016-04-24-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.8">v2.1.8</a> (2016-04-24)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.7...v2.1.8">Full Changelog</a></p>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>Disabled state isn&#39;t relayed to the screen reader <a href="https://github.com/Robdel12/DropKick/issues/324">#324</a></li>
+<li>Empty select causes crash <a href="https://github.com/Robdel12/DropKick/issues/315">#315</a></li>
+<li>Trigering change event fails on Internet Explorer <a href="https://github.com/Robdel12/DropKick/issues/314">#314</a></li>
+</ul>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Demo Page <a href="https://github.com/Robdel12/DropKick/issues/320">#320</a></li>
+<li>DropKick errors out when not mounted on mobile. <a href="https://github.com/Robdel12/DropKick/issues/318">#318</a></li>
+<li>Using DropKick with form validation. <a href="https://github.com/Robdel12/DropKick/issues/313">#313</a></li>
+<li>Select option programattically <a href="https://github.com/Robdel12/DropKick/issues/312">#312</a></li>
+<li>Dropkick exclude &quot;option selected&quot; value within drop down <a href="https://github.com/Robdel12/DropKick/issues/309">#309</a></li>
+<li>IE11 Issue: Change event. <a href="https://github.com/Robdel12/DropKick/issues/321">#321</a></li>
+<li>add() method messes with selection  <a href="https://github.com/Robdel12/DropKick/issues/317">#317</a></li>
+<li>IE/Edge Scrollbar outside the Dropkick box <a href="https://github.com/Robdel12/DropKick/issues/316">#316</a></li>
+<li>Write tests for #310 <a href="https://github.com/Robdel12/DropKick/issues/311">#311</a></li>
+<li>mobile: true in the Doc but not in the API <a href="https://github.com/Robdel12/DropKick/issues/306">#306</a></li>
+<li>DK always expanded down on IE <a href="https://github.com/Robdel12/DropKick/issues/301">#301</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Add issue template <a href="https://github.com/Robdel12/DropKick/pull/322">#322</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Fix name of multiselect example (muliselect) <a href="https://github.com/Robdel12/DropKick/pull/319">#319</a> (<a href="https://github.com/diamondo25">diamondo25</a>)</li>
+<li>Allow use of refresh even on mobile <a href="https://github.com/Robdel12/DropKick/pull/310">#310</a> (<a href="https://github.com/Korri">Korri</a>)</li>
+<li>Updated bower.json and readme <a href="https://github.com/Robdel12/DropKick/pull/307">#307</a> (<a href="https://github.com/alexgleason">alexgleason</a>)</li>
+<li>Add tests for #310. Fixes #311 <a href="https://github.com/Robdel12/DropKick/pull/333">#333</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Fix IE bug with opening DK select. Fixes #301 <a href="https://github.com/Robdel12/DropKick/pull/332">#332</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Use the built file for modules <a href="https://github.com/Robdel12/DropKick/pull/331">#331</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Fixes #316, fix scrollbar in IE browsers <a href="https://github.com/Robdel12/DropKick/pull/330">#330</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Fixes #306, add mobile documentation to api docs <a href="https://github.com/Robdel12/DropKick/pull/329">#329</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Add <code>aria-disabled</code> to dk when disabled. Fixes #324. <a href="https://github.com/Robdel12/DropKick/pull/328">#328</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Add a test for no options in a select <a href="https://github.com/Robdel12/DropKick/pull/327">#327</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Fix #315, throw error when no options are in select <a href="https://github.com/Robdel12/DropKick/pull/326">#326</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>support requirejs <a href="https://github.com/Robdel12/DropKick/pull/323">#323</a> (<a href="https://github.com/pecuchet">pecuchet</a>)</li>
+<li>Remove the extra check on location <a href="https://github.com/Robdel12/DropKick/pull/304">#304</a> (<a href="https://github.com/casr">casr</a>)</li>
+</ul>
+<h2 id="-v2-1-7-https-github-com-robdel12-dropkick-tree-v2-1-7-2015-07-18-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.7">v2.1.7</a> (2015-07-18)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.6...v2.1.7">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Selects with dropkick applied do not bubble change events correctly <a href="https://github.com/Robdel12/DropKick/issues/303">#303</a></li>
+<li>Add demo example in dropkickjs.com <a href="https://github.com/Robdel12/DropKick/issues/295">#295</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Feature/move api docs <a href="https://github.com/Robdel12/DropKick/pull/305">#305</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+</ul>
+<h2 id="-v2-1-6-https-github-com-robdel12-dropkick-tree-v2-1-6-2015-07-07-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.6">v2.1.6</a> (2015-07-07)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.5...v2.1.6">Full Changelog</a></p>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Add bubble change event option <a href="https://github.com/Robdel12/DropKick/pull/302">#302</a> (<a href="https://github.com/spoonben">spoonben</a>)</li>
+<li>Update package.json main <a href="https://github.com/Robdel12/DropKick/pull/299">#299</a> (<a href="https://github.com/jimf">jimf</a>)</li>
+</ul>
+<h2 id="-v2-1-5-https-github-com-robdel12-dropkick-tree-v2-1-5-2015-06-22-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.5">v2.1.5</a> (2015-06-22)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.4...v2.1.5">Full Changelog</a></p>
+<p><strong>Fixed bugs:</strong></p>
+<ul>
+<li>DropKick problem IE11 after postback <a href="https://github.com/Robdel12/DropKick/issues/294">#294</a></li>
+</ul>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Bower can&#39;t find file <a href="https://github.com/Robdel12/DropKick/issues/293">#293</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>CommonJS support <a href="https://github.com/Robdel12/DropKick/pull/298">#298</a> (<a href="https://github.com/jimf">jimf</a>)</li>
+<li>DropKick WordPress Plugin <a href="https://github.com/Robdel12/DropKick/pull/297">#297</a> (<a href="https://github.com/mahfuzul">mahfuzul</a>)</li>
+<li>Remove moot <code>version</code> property from bower.json <a href="https://github.com/Robdel12/DropKick/pull/296">#296</a> (<a href="https://github.com/kkirsche">kkirsche</a>)</li>
+</ul>
+<h2 id="-v2-1-4-https-github-com-robdel12-dropkick-tree-v2-1-4-2015-05-19-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.4">v2.1.4</a> (2015-05-19)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.3...v2.1.4">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>IE 11 Selected value is not reflecting in select control <a href="https://github.com/Robdel12/DropKick/issues/292">#292</a></li>
+<li>Add responsive support <a href="https://github.com/Robdel12/DropKick/issues/291">#291</a></li>
+<li>Having trouble setting the z-index property for the Dropkick element <a href="https://github.com/Robdel12/DropKick/issues/290">#290</a></li>
+<li>issue with e.offsetTop <a href="https://github.com/Robdel12/DropKick/issues/289">#289</a></li>
+<li>reset value or set value <a href="https://github.com/Robdel12/DropKick/issues/288">#288</a></li>
+<li>Move pollyfills into their own file. <a href="https://github.com/Robdel12/DropKick/issues/286">#286</a></li>
+<li>Return Instance of DropKick <a href="https://github.com/Robdel12/DropKick/issues/285">#285</a></li>
+<li>dropkick overrides my this.value on initialize and change methods <a href="https://github.com/Robdel12/DropKick/issues/281">#281</a></li>
+<li>Using Validation with Dropkick <a href="https://github.com/Robdel12/DropKick/issues/280">#280</a></li>
+<li>select option programmatically <a href="https://github.com/Robdel12/DropKick/issues/279">#279</a></li>
+<li>IE8 Object doesn&#39;t support this property or method <a href="https://github.com/Robdel12/DropKick/issues/278">#278</a></li>
+<li>EmberConf - Sitting dead center about 8 rows back in a white striped hoodie.  <a href="https://github.com/Robdel12/DropKick/issues/277">#277</a></li>
+<li>example page bug <a href="https://github.com/Robdel12/DropKick/issues/276">#276</a></li>
+<li>fuzzy search yields undefined <a href="https://github.com/Robdel12/DropKick/issues/275">#275</a></li>
+<li>Documentation builder <a href="https://github.com/Robdel12/DropKick/issues/274">#274</a></li>
+<li>Automate release process <a href="https://github.com/Robdel12/DropKick/issues/270">#270</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Feature/remove polyfills <a href="https://github.com/Robdel12/DropKick/pull/287">#287</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Feature/automate release process <a href="https://github.com/Robdel12/DropKick/pull/284">#284</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Add doc generator <a href="https://github.com/Robdel12/DropKick/pull/283">#283</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>nodeName of null <a href="https://github.com/Robdel12/DropKick/pull/282">#282</a> (<a href="https://github.com/pierrefaure">pierrefaure</a>)</li>
+</ul>
+<h2 id="-v2-1-3-https-github-com-robdel12-dropkick-tree-v2-1-3-2015-02-25-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.3">v2.1.3</a> (2015-02-25)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.2...v2.1.3">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Cannot read property &#39;data&#39; of undefined after using refresh <a href="https://github.com/Robdel12/DropKick/issues/273">#273</a></li>
+<li>Can&#39;t get dk.open() to work with onlick event <a href="https://github.com/Robdel12/DropKick/issues/271">#271</a></li>
+</ul>
+<h2 id="-v2-1-2-https-github-com-robdel12-dropkick-tree-v2-1-2-2015-02-20-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.2">v2.1.2</a> (2015-02-20)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1.1...v2.1.2">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>TypeError: undefined is not an object on iOS <a href="https://github.com/Robdel12/DropKick/issues/268">#268</a></li>
+</ul>
+<h2 id="-v2-1-1-https-github-com-robdel12-dropkick-tree-v2-1-1-2015-02-16-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1.1">v2.1.1</a> (2015-02-16)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.1...v2.1.1">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Write tests for new <code>dispose</code> method <a href="https://github.com/Robdel12/DropKick/issues/246">#246</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>IE9 width fix <a href="https://github.com/Robdel12/DropKick/pull/269">#269</a> (<a href="https://github.com/aesinv">aesinv</a>)</li>
+</ul>
+<h2 id="-v2-1-https-github-com-robdel12-dropkick-tree-v2-1-2015-01-31-"><a href="https://github.com/Robdel12/DropKick/tree/v2.1">v2.1</a> (2015-01-31)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.0.2...v2.1">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>IE8-11 drop downs always open with &quot;dk-option-open-down&quot; <a href="https://github.com/Robdel12/DropKick/issues/267">#267</a></li>
+<li>Add Polyfill for new Event <a href="https://github.com/Robdel12/DropKick/issues/263">#263</a></li>
+<li>Add test runner back into default gulp runner <a href="https://github.com/Robdel12/DropKick/issues/262">#262</a></li>
+<li>options selecting with numberpad <a href="https://github.com/Robdel12/DropKick/issues/261">#261</a></li>
+<li>new feature request: Multi-Selectable Drop-down List <a href="https://github.com/Robdel12/DropKick/issues/259">#259</a></li>
+<li>new feature request: Placeholder Selected? <a href="https://github.com/Robdel12/DropKick/issues/258">#258</a></li>
+<li>Manual trigger of change() <a href="https://github.com/Robdel12/DropKick/issues/257">#257</a></li>
+<li>Update to PhantomJS 2 when released <a href="https://github.com/Robdel12/DropKick/issues/256">#256</a></li>
+<li>\<select\> inside a \<label\> <a href="https://github.com/Robdel12/DropKick/issues/253">#253</a></li>
+<li>Method select(string, disabled) doesn&#39;t select/return element matching string v. 2.0.2 <a href="https://github.com/Robdel12/DropKick/issues/252">#252</a></li>
+<li>Update readme <a href="https://github.com/Robdel12/DropKick/issues/251">#251</a></li>
+<li>not able to style dropdown - used theme <a href="https://github.com/Robdel12/DropKick/issues/250">#250</a></li>
+<li>Error in strict mode <a href="https://github.com/Robdel12/DropKick/issues/248">#248</a></li>
+<li>Dropped change() support <a href="https://github.com/Robdel12/DropKick/issues/247">#247</a></li>
+<li>Select with no options causes TypeError: Cannot read property &#39;text&#39; of undefined <a href="https://github.com/Robdel12/DropKick/issues/244">#244</a></li>
+<li>Bug when hovering options then using the arrow keys <a href="https://github.com/Robdel12/DropKick/issues/234">#234</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Update dropkick.js <a href="https://github.com/Robdel12/DropKick/pull/265">#265</a> (<a href="https://github.com/vreshch">vreshch</a>)</li>
+<li>Revert &quot;Correction of issue 252&quot; <a href="https://github.com/Robdel12/DropKick/pull/255">#255</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Correction of issue 252 <a href="https://github.com/Robdel12/DropKick/pull/254">#254</a> (<a href="https://github.com/brianAround">brianAround</a>)</li>
+<li>Remove trailing comma <a href="https://github.com/Robdel12/DropKick/pull/249">#249</a> (<a href="https://github.com/jmahony">jmahony</a>)</li>
+</ul>
+<h2 id="-v2-0-2-https-github-com-robdel12-dropkick-tree-v2-0-2-2014-10-06-"><a href="https://github.com/Robdel12/DropKick/tree/v2.0.2">v2.0.2</a> (2014-10-06)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.0.1...v2.0.2">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>jQuery plugin and noConflict mode <a href="https://github.com/Robdel12/DropKick/issues/245">#245</a></li>
+<li>dk.select( elem, disabled ) is not working <a href="https://github.com/Robdel12/DropKick/issues/242">#242</a></li>
+<li>Mobile Devices <a href="https://github.com/Robdel12/DropKick/issues/241">#241</a></li>
+<li>When jquery noConflict is set elsewhere the jquery plugin fails <a href="https://github.com/Robdel12/DropKick/issues/239">#239</a></li>
+<li>How to have more than one search drop down on a single page... <a href="https://github.com/Robdel12/DropKick/issues/238">#238</a></li>
+<li>reset multi select dropdown is not working <a href="https://github.com/Robdel12/DropKick/issues/237">#237</a></li>
+<li>Correct way to select an option from JS ? <a href="https://github.com/Robdel12/DropKick/issues/236">#236</a></li>
+<li>Refresh, messes up cache <a href="https://github.com/Robdel12/DropKick/issues/235">#235</a></li>
+<li>Are themes still supported <a href="https://github.com/Robdel12/DropKick/issues/233">#233</a></li>
+<li>Expand height to be as tall as possible <a href="https://github.com/Robdel12/DropKick/issues/231">#231</a></li>
+<li>Indentation for specific options <a href="https://github.com/Robdel12/DropKick/issues/230">#230</a></li>
+<li>Add meta tags to examples page <a href="https://github.com/Robdel12/DropKick/issues/229">#229</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Version 2.0.2 <a href="https://github.com/Robdel12/DropKick/pull/243">#243</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>fix minor typo in comment <a href="https://github.com/Robdel12/DropKick/pull/232">#232</a> (<a href="https://github.com/philfreo">philfreo</a>)</li>
+</ul>
+<h2 id="-v2-0-1-https-github-com-robdel12-dropkick-tree-v2-0-1-2014-07-24-"><a href="https://github.com/Robdel12/DropKick/tree/v2.0.1">v2.0.1</a> (2014-07-24)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/2.0...v2.0.1">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Bug when pressing scroll in IE8 native <a href="https://github.com/Robdel12/DropKick/issues/227">#227</a></li>
+<li>Issue in change event function <a href="https://github.com/Robdel12/DropKick/issues/222">#222</a></li>
+<li>Mixed Content <a href="https://github.com/Robdel12/DropKick/issues/221">#221</a></li>
+<li>Horizontal Scroll on mobile <a href="https://github.com/Robdel12/DropKick/issues/216">#216</a></li>
+<li>Scroll not working on dropdown in IE8 native. dropkick.js 2.0.0 <a href="https://github.com/Robdel12/DropKick/issues/226">#226</a></li>
+<li>Behaviour within an iFrame <a href="https://github.com/Robdel12/DropKick/issues/223">#223</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Version 2.0.1 <a href="https://github.com/Robdel12/DropKick/pull/228">#228</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>fix for <a href="https://github.com/Robdel12/DropKick/issues/223">https://github.com/Robdel12/DropKick/issues/223</a> <a href="https://github.com/Robdel12/DropKick/pull/225">#225</a> (<a href="https://github.com/cforrester">cforrester</a>)</li>
+</ul>
+<h2 id="-2-0-https-github-com-robdel12-dropkick-tree-2-0-2014-07-10-"><a href="https://github.com/Robdel12/DropKick/tree/2.0">2.0</a> (2014-07-10)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.0-RC3...2.0">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Why did the accessibility features are dropped in the recent version (1.5.x) of Dropkick? <a href="https://github.com/Robdel12/DropKick/issues/219">#219</a></li>
+<li>Feature Request <a href="https://github.com/Robdel12/DropKick/issues/218">#218</a></li>
+<li>Mouse events are still active while the select elements are hidden <a href="https://github.com/Robdel12/DropKick/issues/211">#211</a></li>
+<li>Putting dropkick 2.0 on the road  <a href="https://github.com/Robdel12/DropKick/issues/185">#185</a></li>
+<li>object doesn&#39;t support this property or method dropkick on IE9 <a href="https://github.com/Robdel12/DropKick/issues/182">#182</a></li>
+<li>Opera 12.16 and above having major problems(Linux Ubuntu(13.04)) <a href="https://github.com/Robdel12/DropKick/issues/165">#165</a></li>
+<li>Doubt in feature <a href="https://github.com/Robdel12/DropKick/issues/217">#217</a></li>
+<li>IE 7 and IE8 slighty unresponsive <a href="https://github.com/Robdel12/DropKick/issues/204">#204</a></li>
+<li>Cancel change event <a href="https://github.com/Robdel12/DropKick/issues/196">#196</a></li>
+<li>[enhancement] Add missing bower.json. <a href="https://github.com/Robdel12/DropKick/issues/169">#169</a></li>
+<li>keyboard accessibility does not work with screen readers on <a href="https://github.com/Robdel12/DropKick/issues/161">#161</a></li>
+<li>Can&#39;t use dropkick with requirejs <a href="https://github.com/Robdel12/DropKick/issues/156">#156</a></li>
+<li>Styling &#39;box-sizing: border-box&#39; breaks default theme.   <a href="https://github.com/Robdel12/DropKick/issues/152">#152</a></li>
+<li>Dropkick and Angular <a href="https://github.com/Robdel12/DropKick/issues/130">#130</a></li>
+<li>OptGroup <a href="https://github.com/Robdel12/DropKick/issues/125">#125</a></li>
+<li>Adding multiple change handlers to dropkick lists? <a href="https://github.com/Robdel12/DropKick/issues/86">#86</a></li>
+<li>OptGroup and Multiple <a href="https://github.com/Robdel12/DropKick/issues/40">#40</a></li>
+<li>Optgroup <a href="https://github.com/Robdel12/DropKick/issues/2">#2</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Version 2.0 <a href="https://github.com/Robdel12/DropKick/pull/220">#220</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+</ul>
+<h2 id="-v2-0-rc3-https-github-com-robdel12-dropkick-tree-v2-0-rc3-2014-06-30-"><a href="https://github.com/Robdel12/DropKick/tree/v2.0-RC3">v2.0-RC3</a> (2014-06-30)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v1.5.2...v2.0-RC3">Full Changelog</a></p>
+<h2 id="-v1-5-2-https-github-com-robdel12-dropkick-tree-v1-5-2-2014-06-27-"><a href="https://github.com/Robdel12/DropKick/tree/v1.5.2">v1.5.2</a> (2014-06-27)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.0-RC2...v1.5.2">Full Changelog</a></p>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Version 1.5.2 <a href="https://github.com/Robdel12/DropKick/pull/215">#215</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Added recursive hotkey search feature <a href="https://github.com/Robdel12/DropKick/pull/213">#213</a> (<a href="https://github.com/chromeragnarok">chromeragnarok</a>)</li>
+</ul>
+<h2 id="-v2-0-rc2-https-github-com-robdel12-dropkick-tree-v2-0-rc2-2014-06-23-"><a href="https://github.com/Robdel12/DropKick/tree/v2.0-RC2">v2.0-RC2</a> (2014-06-23)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v2.0-RC1...v2.0-RC2">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Add a git tag for version 1.5 so that it can be targeted by bower <a href="https://github.com/Robdel12/DropKick/issues/212">#212</a></li>
+</ul>
+<h2 id="-v2-0-rc1-https-github-com-robdel12-dropkick-tree-v2-0-rc1-2014-06-17-"><a href="https://github.com/Robdel12/DropKick/tree/v2.0-RC1">v2.0-RC1</a> (2014-06-17)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v1.5.1...v2.0-RC1">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Non-standard <code>appearance</code> property <a href="https://github.com/Robdel12/DropKick/issues/210">#210</a></li>
+<li>Setting parent element position: relative causes dropkick to fail <a href="https://github.com/Robdel12/DropKick/issues/209">#209</a></li>
+<li>Theme is not set properly <a href="https://github.com/Robdel12/DropKick/issues/205">#205</a></li>
+<li>Ipad Compatiblity <a href="https://github.com/Robdel12/DropKick/issues/198">#198</a></li>
+<li>value is not updating on ajax call <a href="https://github.com/Robdel12/DropKick/issues/197">#197</a></li>
+<li>How to remove dropkick ? <a href="https://github.com/Robdel12/DropKick/issues/189">#189</a></li>
+<li>Dropkick background invisible <a href="https://github.com/Robdel12/DropKick/issues/188">#188</a></li>
+<li>Multiple lists on one page doesn&#39;t work right <a href="https://github.com/Robdel12/DropKick/issues/181">#181</a></li>
+<li>DropDown COntrols <a href="https://github.com/Robdel12/DropKick/issues/167">#167</a></li>
+<li>onHover? <a href="https://github.com/Robdel12/DropKick/issues/163">#163</a></li>
+<li>feature request <a href="https://github.com/Robdel12/DropKick/issues/159">#159</a></li>
+<li>All select elements on page are hidden, even if only one select element is targeted <a href="https://github.com/Robdel12/DropKick/issues/138">#138</a></li>
+<li>Ability to maintain an existing class attribute for an option <a href="https://github.com/Robdel12/DropKick/issues/131">#131</a></li>
+<li>Colon escaping in id selector <a href="https://github.com/Robdel12/DropKick/issues/128">#128</a></li>
+<li>Onclick of the option, open a link or document <a href="https://github.com/Robdel12/DropKick/issues/121">#121</a></li>
+<li>Dropkick and ABSOLUTE positioning <a href="https://github.com/Robdel12/DropKick/issues/111">#111</a></li>
+<li>How can I assign a &#39;click&#39; function to a \<select\> element styled with Dropkick? <a href="https://github.com/Robdel12/DropKick/issues/107">#107</a></li>
+<li>how to apply dropkick to dropdown where page coming in ajax? <a href="https://github.com/Robdel12/DropKick/issues/100">#100</a></li>
+<li>hello, i have found there is a bug if i use Jquery UI calenda. <a href="https://github.com/Robdel12/DropKick/issues/95">#95</a></li>
+<li>Dropkick and Dotnetnuke <a href="https://github.com/Robdel12/DropKick/issues/84">#84</a></li>
+<li>problem with Update Panel async postback <a href="https://github.com/Robdel12/DropKick/issues/75">#75</a></li>
+<li>No way to manually specify variable widths without using &nbsp; <a href="https://github.com/Robdel12/DropKick/issues/71">#71</a></li>
+<li>Using DropKick with c#(AutoPostBack) <a href="https://github.com/Robdel12/DropKick/issues/66">#66</a></li>
+<li>Updating the dropkick. <a href="https://github.com/Robdel12/DropKick/issues/61">#61</a></li>
+<li>Problem with array of selects <a href="https://github.com/Robdel12/DropKick/issues/59">#59</a></li>
+<li>Submitting form without button. <a href="https://github.com/Robdel12/DropKick/issues/47">#47</a></li>
+<li>Selects that can accept input <a href="https://github.com/Robdel12/DropKick/issues/30">#30</a></li>
+<li>Reset values <a href="https://github.com/Robdel12/DropKick/issues/25">#25</a></li>
+<li>No Typing <a href="https://github.com/Robdel12/DropKick/issues/3">#3</a></li>
+</ul>
+<h2 id="-v1-5-1-https-github-com-robdel12-dropkick-tree-v1-5-1-2014-05-27-"><a href="https://github.com/Robdel12/DropKick/tree/v1.5.1">v1.5.1</a> (2014-05-27)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v1.1...v1.5.1">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Disable/Enable dropdown not working in DropKick 1.4 <a href="https://github.com/Robdel12/DropKick/issues/199">#199</a></li>
+<li>How to disable/enable the dropdown <a href="https://github.com/Robdel12/DropKick/issues/193">#193</a></li>
+<li>disable option in 1.4 <a href="https://github.com/Robdel12/DropKick/issues/190">#190</a></li>
+<li>refresh method <a href="https://github.com/Robdel12/DropKick/issues/187">#187</a></li>
+<li>Dynamically created DropKick selects on a single page... <a href="https://github.com/Robdel12/DropKick/issues/177">#177</a></li>
+<li>bower.json isn&#39;t valid JSON <a href="https://github.com/Robdel12/DropKick/issues/173">#173</a></li>
+<li>Dropkick website doesn&#39;t show <a href="https://github.com/Robdel12/DropKick/issues/172">#172</a></li>
+<li>Should the &#39;blank theme&#39; contain the minimum CSS required to get Dropkick working? <a href="https://github.com/Robdel12/DropKick/issues/171">#171</a></li>
+<li>DropKick doesnot seems to work when AutopostBack is set to true for the DropDownList in asp.net <a href="https://github.com/Robdel12/DropKick/issues/164">#164</a></li>
+<li>Height changes on long values <a href="https://github.com/Robdel12/DropKick/issues/162">#162</a></li>
+<li>doesnt work with jquery 2.0 <a href="https://github.com/Robdel12/DropKick/issues/160">#160</a></li>
+<li>Cannot read property &#39;$select&#39; of undefined <a href="https://github.com/Robdel12/DropKick/issues/158">#158</a></li>
+<li>Dropkick doesn&#39;t work in IE 12 <a href="https://github.com/Robdel12/DropKick/issues/157">#157</a></li>
+<li>v1.3.2 doesn&#39;t work in IE7/8 <a href="https://github.com/Robdel12/DropKick/issues/155">#155</a></li>
+<li>IE11 dropkick <a href="https://github.com/Robdel12/DropKick/issues/154">#154</a></li>
+<li>jQuery support <a href="https://github.com/Robdel12/DropKick/issues/153">#153</a></li>
+<li>XSS Vulnerability <a href="https://github.com/Robdel12/DropKick/issues/151">#151</a></li>
+<li>can&#39;t scroll on touch device <a href="https://github.com/Robdel12/DropKick/issues/146">#146</a></li>
+<li>Hidden Select still displaying when DropKick loads <a href="https://github.com/Robdel12/DropKick/issues/142">#142</a></li>
+<li>In IE10 &amp; IE11, using the scrollbar closes any options dropdowns with overflow: auto <a href="https://github.com/Robdel12/DropKick/issues/134">#134</a></li>
+<li>Jquery validation not fires because of element is &quot;hidden&quot; <a href="https://github.com/Robdel12/DropKick/issues/126">#126</a></li>
+<li>IE Gradient Filter Breaks Dropkick <a href="https://github.com/Robdel12/DropKick/issues/120">#120</a></li>
+<li>Image for Github link on website is broken <a href="https://github.com/Robdel12/DropKick/issues/116">#116</a></li>
+<li>Scroll Bars do not work in IE8 and IE7 <a href="https://github.com/Robdel12/DropKick/issues/109">#109</a></li>
+<li>DropKick plugin not working in IE10(os used to test both windows7 and window8 ) <a href="https://github.com/Robdel12/DropKick/issues/105">#105</a></li>
+<li>iPhone and iPad dropdown does not close when clicked outside <a href="https://github.com/Robdel12/DropKick/issues/103">#103</a></li>
+<li>Suggestion for update <a href="https://github.com/Robdel12/DropKick/issues/102">#102</a></li>
+<li>Scrollability in latest iOS <a href="https://github.com/Robdel12/DropKick/issues/101">#101</a></li>
+<li>not initialized in chrome version 24.0.1312.57 m <a href="https://github.com/Robdel12/DropKick/issues/99">#99</a></li>
+<li>IE 9, jquery 1.8.3 <a href="https://github.com/Robdel12/DropKick/issues/98">#98</a></li>
+<li>Not work with jQuery 1.9 <a href="https://github.com/Robdel12/DropKick/issues/94">#94</a></li>
+<li>Scolling in IE9 <a href="https://github.com/Robdel12/DropKick/issues/92">#92</a></li>
+<li>Pulldown box not overridding another options box in IE8 <a href="https://github.com/Robdel12/DropKick/issues/91">#91</a></li>
+<li>dk_options problems at document&#39;s bottom <a href="https://github.com/Robdel12/DropKick/issues/89">#89</a></li>
+<li>Selected option <a href="https://github.com/Robdel12/DropKick/issues/85">#85</a></li>
+<li>Scrollability not working with DropKick <a href="https://github.com/Robdel12/DropKick/issues/83">#83</a></li>
+<li>&#39;tabindex&#39; isn&#39;t ideal for tab support <a href="https://github.com/Robdel12/DropKick/issues/82">#82</a></li>
+<li>DropKick select with images <a href="https://github.com/Robdel12/DropKick/issues/78">#78</a></li>
+<li>DropKick and php GET don&#39;t play well? <a href="https://github.com/Robdel12/DropKick/issues/77">#77</a></li>
+<li>Dropkick does not work in Windows8, IE10 <a href="https://github.com/Robdel12/DropKick/issues/76">#76</a></li>
+<li>IE 9 invisible dk_options issue (css: filter gradient) <a href="https://github.com/Robdel12/DropKick/issues/72">#72</a></li>
+<li>jQuery.ScrollTo &amp; Dropkick issues <a href="https://github.com/Robdel12/DropKick/issues/70">#70</a></li>
+<li>change() event call <a href="https://github.com/Robdel12/DropKick/issues/69">#69</a></li>
+<li>Labels Missing from Example <a href="https://github.com/Robdel12/DropKick/issues/64">#64</a></li>
+<li>According to the code in issue #51, When DropKick display upwards, the border-radius is not correct <a href="https://github.com/Robdel12/DropKick/issues/63">#63</a></li>
+<li>Tabindex is required by DropKick <a href="https://github.com/Robdel12/DropKick/issues/62">#62</a></li>
+<li>issue on resize browser with fluid layout <a href="https://github.com/Robdel12/DropKick/issues/60">#60</a></li>
+<li>\&lt; or > in option value breaks dropdown <a href="https://github.com/Robdel12/DropKick/issues/58">#58</a></li>
+<li>I create a new method,but I don&#39;t kown how to use the github  <a href="https://github.com/Robdel12/DropKick/issues/57">#57</a></li>
+<li>Problem with scroll div in IE <a href="https://github.com/Robdel12/DropKick/issues/54">#54</a></li>
+<li>Add a setValue method like so <a href="https://github.com/Robdel12/DropKick/issues/53">#53</a></li>
+<li>Ajax and loading new selects - issue with live event click vs. bind <a href="https://github.com/Robdel12/DropKick/issues/49">#49</a></li>
+<li>This repo has been included in The Github Pirates <a href="https://github.com/Robdel12/DropKick/issues/48">#48</a></li>
+<li>Layout Interference <a href="https://github.com/Robdel12/DropKick/issues/46">#46</a></li>
+<li>Chrome &amp; Safari dropdown does not close when clicked outside <a href="https://github.com/Robdel12/DropKick/issues/45">#45</a></li>
+<li>Dark/Black theme issue in IE9? <a href="https://github.com/Robdel12/DropKick/issues/42">#42</a></li>
+<li>Can not select item by keypress? <a href="https://github.com/Robdel12/DropKick/issues/41">#41</a></li>
+<li>Blur event on IE 7 to 9 <a href="https://github.com/Robdel12/DropKick/issues/39">#39</a></li>
+<li>How can I correct the .dk_container info so that it won&#39;t interfere with my page layout? <a href="https://github.com/Robdel12/DropKick/issues/38">#38</a></li>
+<li>How to make the width:auto or width:100%? <a href="https://github.com/Robdel12/DropKick/issues/37">#37</a></li>
+<li>Some content overwrites the dropdowns <a href="https://github.com/Robdel12/DropKick/issues/35">#35</a></li>
+<li>How to add disabled options? <a href="https://github.com/Robdel12/DropKick/issues/34">#34</a></li>
+<li>Error when selecting a option item (data is not defined) <a href="https://github.com/Robdel12/DropKick/issues/33">#33</a></li>
+<li>This plugin is nice but it disable the default behavior of select on ios <a href="https://github.com/Robdel12/DropKick/issues/32">#32</a></li>
+<li>setting narrow widths? <a href="https://github.com/Robdel12/DropKick/issues/29">#29</a></li>
+<li>onClick events not targeting generated elements <a href="https://github.com/Robdel12/DropKick/issues/28">#28</a></li>
+<li>Is there any way to dropkick dynamic options ? <a href="https://github.com/Robdel12/DropKick/issues/26">#26</a></li>
+<li>strange extra :- character  <a href="https://github.com/Robdel12/DropKick/issues/21">#21</a></li>
+<li>Bug when tabindex=&quot;0&quot; <a href="https://github.com/Robdel12/DropKick/issues/19">#19</a></li>
+<li>Enable the disabled attribute <a href="https://github.com/Robdel12/DropKick/issues/18">#18</a></li>
+<li>Status of DropKick <a href="https://github.com/Robdel12/DropKick/issues/16">#16</a></li>
+<li>truncate selected text if needed <a href="https://github.com/Robdel12/DropKick/issues/15">#15</a></li>
+<li>XSS Vulnerability <a href="https://github.com/Robdel12/DropKick/issues/12">#12</a></li>
+<li>Scrollbars not working on dropdown in IE8 <a href="https://github.com/Robdel12/DropKick/issues/11">#11</a></li>
+<li>Select element width set to 0 <a href="https://github.com/Robdel12/DropKick/issues/8">#8</a></li>
+<li>Selective Dropkick&#39;ing <a href="https://github.com/Robdel12/DropKick/issues/7">#7</a></li>
+<li>1.1.0 Planned features <a href="https://github.com/Robdel12/DropKick/issues/6">#6</a></li>
+<li>the dropkick.css doesn&#39;t work without example.css <a href="https://github.com/Robdel12/DropKick/issues/4">#4</a></li>
+<li>Arrow icon is too far to the left <a href="https://github.com/Robdel12/DropKick/issues/1">#1</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Minor Improvements <a href="https://github.com/Robdel12/DropKick/pull/208">#208</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Version 1.5.1 <a href="https://github.com/Robdel12/DropKick/pull/206">#206</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Remove the insertion of &quot;dk_fouc&quot; class <a href="https://github.com/Robdel12/DropKick/pull/203">#203</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Proposes solution to prevent FOUC + Refactoring code <a href="https://github.com/Robdel12/DropKick/pull/202">#202</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Version 1.5 <a href="https://github.com/Robdel12/DropKick/pull/201">#201</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Added &quot;optgroup&quot; support and improved &quot;disabled&quot; suport <a href="https://github.com/Robdel12/DropKick/pull/200">#200</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Issues fixes + Improvements <a href="https://github.com/Robdel12/DropKick/pull/191">#191</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Corrected 2 minor spelling mistakes in readme.md <a href="https://github.com/Robdel12/DropKick/pull/180">#180</a> (<a href="https://github.com/rightsaidjames">rightsaidjames</a>)</li>
+<li>Update bower.json <a href="https://github.com/Robdel12/DropKick/pull/178">#178</a> (<a href="https://github.com/tschwartz">tschwartz</a>)</li>
+<li>Update bower.json <a href="https://github.com/Robdel12/DropKick/pull/175">#175</a> (<a href="https://github.com/tschwartz">tschwartz</a>)</li>
+<li>Update bower.json <a href="https://github.com/Robdel12/DropKick/pull/174">#174</a> (<a href="https://github.com/tschwartz">tschwartz</a>)</li>
+<li>Version 1.4 <a href="https://github.com/Robdel12/DropKick/pull/170">#170</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Version 1.3 <a href="https://github.com/Robdel12/DropKick/pull/147">#147</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>Fixes theme and refresh methods + progressive enhancement <a href="https://github.com/Robdel12/DropKick/pull/145">#145</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Improves mobile dropkick + performance boost <a href="https://github.com/Robdel12/DropKick/pull/144">#144</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Version 1.1 <a href="https://github.com/Robdel12/DropKick/pull/140">#140</a> (<a href="https://github.com/Robdel12">Robdel12</a>)</li>
+<li>[FIX] _enoughSpaceBelow + Avoids duplicate calls of functions <a href="https://github.com/Robdel12/DropKick/pull/135">#135</a> (<a href="https://github.com/acemir">acemir</a>)</li>
+<li>Update lib version number in example <a href="https://github.com/Robdel12/DropKick/pull/132">#132</a> (<a href="https://github.com/newick">newick</a>)</li>
+<li>TAB key within a dropdown behavior <a href="https://github.com/Robdel12/DropKick/pull/127">#127</a> (<a href="https://github.com/domichal">domichal</a>)</li>
+<li>Added native iOS support without Scrollability.js <a href="https://github.com/Robdel12/DropKick/pull/123">#123</a> (<a href="https://github.com/compwright">compwright</a>)</li>
+<li>SCSS Theme <a href="https://github.com/Robdel12/DropKick/pull/55">#55</a> (<a href="https://github.com/TheKidCoder">TheKidCoder</a>)</li>
+<li>Improved toggle icon positioning <a href="https://github.com/Robdel12/DropKick/pull/43">#43</a> (<a href="https://github.com/shealan">shealan</a>)</li>
+</ul>
+<h2 id="-v1-1-https-github-com-robdel12-dropkick-tree-v1-1-2013-07-09-"><a href="https://github.com/Robdel12/DropKick/tree/v1.1">v1.1</a> (2013-07-09)</h2>
+<p><a href="https://github.com/Robdel12/DropKick/compare/v1.0.0...v1.1">Full Changelog</a></p>
+<p><strong>Closed issues:</strong></p>
+<ul>
+<li>Generated width is inconsistant across browsers <a href="https://github.com/Robdel12/DropKick/issues/118">#118</a></li>
+<li>Scroll bars not working in FE and Chrome (later versions) <a href="https://github.com/Robdel12/DropKick/issues/113">#113</a></li>
+<li>element class trouble: dk_fouc... <a href="https://github.com/Robdel12/DropKick/issues/110">#110</a></li>
+<li>Prevent dropkick from changing certain \<select\> items in app <a href="https://github.com/Robdel12/DropKick/issues/108">#108</a></li>
+<li>Dropkick change function only executes correctly the first time its called <a href="https://github.com/Robdel12/DropKick/issues/106">#106</a></li>
+<li>Active Project? <a href="https://github.com/Robdel12/DropKick/issues/90">#90</a></li>
+<li>Scrolling via scrollbar does not work in IE <a href="https://github.com/Robdel12/DropKick/issues/44">#44</a></li>
+<li>Callbacks <a href="https://github.com/Robdel12/DropKick/issues/13">#13</a></li>
+</ul>
+<p><strong>Merged pull requests:</strong></p>
+<ul>
+<li>Update and rename jquery.dropkick-1.0.0.js to jquery.dropkick-1.0.1.js <a href="https://github.com/Robdel12/DropKick/pull/124">#124</a> (<a href="https://github.com/joeri210">joeri210</a>)</li>
+<li>Updates <a href="https://github.com/Robdel12/DropKick/pull/122">#122</a> (<a href="https://github.com/caiovaccaro">caiovaccaro</a>)</li>
+<li>Globally handle a click outside of the dropdown  <a href="https://github.com/Robdel12/DropKick/pull/117">#117</a> (<a href="https://github.com/cskevint">cskevint</a>)</li>
+<li>jQuery 1.9 support <a href="https://github.com/Robdel12/DropKick/pull/104">#104</a> (<a href="https://github.com/joeblynch">joeblynch</a>)</li>
+<li>fix: if two selects have one same name in a page <a href="https://github.com/Robdel12/DropKick/pull/93">#93</a> (<a href="https://github.com/chenhouwu">chenhouwu</a>)</li>
+<li>Fix browser detection to make dropkick work in IE 10 <a href="https://github.com/Robdel12/DropKick/pull/88">#88</a> (<a href="https://github.com/steve-v-jedo">steve-v-jedo</a>)</li>
+<li>Fixed issue #58 <a href="https://github.com/Robdel12/DropKick/pull/73">#73</a> (<a href="https://github.com/wolfascu">wolfascu</a>)</li>
+<li>Remove unused variables, small cleanup <a href="https://github.com/Robdel12/DropKick/pull/23">#23</a> (<a href="https://github.com/bdukes">bdukes</a>)</li>
+<li>Another example ... <a href="https://github.com/Robdel12/DropKick/pull/14">#14</a> (<a href="https://github.com/petty">petty</a>)</li>
+</ul>
+<h2 id="-v1-0-0-https-github-com-robdel12-dropkick-tree-v1-0-0-2011-07-05-"><a href="https://github.com/Robdel12/DropKick/tree/v1.0.0">v1.0.0</a> (2011-07-05)</h2>
+<p>* <em>This Change Log was automatically generated by <a href="https://github.com/skywinder/Github-Changelog-Generator">github_changelog_generator</a></em></p>
+
+      </body>
+    </html>
